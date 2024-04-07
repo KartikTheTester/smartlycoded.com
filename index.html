@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartly Coded Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="smartlycoded.png" alt="Logo" class="logo navigatingLinks" data-val="Home" draggable="false">
+            <i class="fa-solid fa-bars" id="humburger"></i>
+            <ul id="navSlide">
+                <li class="navigatingLinks" data-val="Home">Home</li>
+                <li class="navigatingLinks" data-val="Courses">Plans</li>
+                <li class="navigatingLinks" data-val="Pricing">Products</li>
+                <li class="navigatingLinks" data-val="About">About</li>
+                <li class="navigatingLinks" data-val="Contact">Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <section class="homeContainer maxWidthAll marginAuto" id="Home">
+        <div class="textBoxHome">
+            <h1 class="title"><img src="smartlycoded.png" width="70" draggable="false">Smartly Coded</h1>
+            <p class="smallText">Simply Smart
+            </p>
+            <button class="button_1">Sign up</button>
+        </div>
+        <div class="imgBoxHome">
+            <img src="Images/robot.png" height="400" width="400" ="Hero" draggable="false">
+        </div>
+    </section>
+    <section class="codeFestContainer maxWidthAll marginAuto reveal">
+        <img src="./Images/winnerCup.svg" alt="winning Cup">
+        <p class="regularText">Our Membership will unlock all premium features. <br> <span> By Developer Kartik</span></p>
+    </section>
+    <section class="courseSection maxWidthAll marginAuto reveal" id="Courses">
+        <h1 class="mainHeading bigText">Plans</h1>
+        <div class="courseContainer">
+            <div class="course reveal">
+                <img src="./Images/DataScientist.svg" alt="Data Scientist Illustration">
+                <div>
+                    <h1 class="bigText">Basic</h1>
+                    <p class="smallText">Unlocks:</p>
+                    <p>
+                        1. Basic Badge 🎈<br>
+                        2. Unlock Basic Premium <br>
+                        3. Free download for Visuals browser <br>
+                    </p>
+                </div>
+                <p class="courseSalary normalText">₹2,200</p>
+            </div>
+            <div class="course reveal">
+                <img src="./Images/WebDevelopment.svg" alt="Data Scientist Illustration">
+                <div>
+                    <h1 class="bigText">Starter</h1>
+                    <p class="smallText">Unlocks: </p>
+                    <p>
+                        1. Starter Badge 🎉<br>
+                        2. Starter Premium <br>
+                        3. All downloads
+                    </p>
+                </div>
+                <p class="courseSalary normalText">₹5,400</p>
+            </div>
+            <div class="course reveal">
+                <img src="./Images/winnerCup.svg" alt="winning cup">
+                <div>
+                    <h1 class="bigText">Developer</h1>
+                    <p class="smallText">Unlocks</p>
+                    <p>
+                        1. Developers Badge ✨<br>
+                        2. Developers Premium<br>
+                        3. All downloads and get a SmartOS Product Key<br>
+                    </p>
+                </div>
+                <p class="courseSalary normalText">₹ 10,000</p>
+            </div>
+        </div>
+    </section>
+    <section class="pricing maxWidthAll marginAuto reveal" id="Pricing">
+        <h1 class="mainHeading bigText">Top Products</h1>
+        <div class="pricingContainer">
+            <div class="priceBox reveal">
+                <h1 class="regularText gradtext">Visuals Browser</h1>
+                <p id="vsd">
+                    Your search for a modern and fast browser ends here. Visuals provides all features if you are a basic user. Member get exclusive features like Browser modding, custom geastures and more! at just ₹1,200/-. On a Budget? No wories as the browser is free if you are a basic user.
+                </p>
+                <button class="button_1">Buy for ₹1,200</button>
+            </div>
+            <div class="priceBox reveal">
+                <h1 class="regularText">SmartOS</h1>
+                <p id="vsd2">
+                    SmartOS is the next gen AI-based OS. It provides a modern and beginner friendly ui. Members get exclusive features like Custom themes, Full taskbar customization and more at just ₹4,000/-.To get SmartOS you have to have a Official Product Key which you can get along with the os download using the button below.
+                </p>
+                <a href=""></a><button class="button_1">Buy for ₹4,000/-</button>
+            </div>
+        </div>
+    </section>
+    <section class="about_us maxWidthAll marginAuto reveal" id="About">
+        <h1 class="mainHeading bigText">About Us</h1>
+        <div class="aboutContainer">
+            <img src="./Images/UserInterface.svg" alt="About Us">
+            <p class="normalText">Smartly Coded is the ultimate tech industry creating at least 2 products every year. Smartly Coded is a pioneering tech company at the forefront of innovation, dedicated to crafting cutting-edge solutions that redefine industry standards. Established with a vision to revolutionize the digital landscape, Smartly Coded thrives on the ethos of creativity, precision, and forward-thinking.. With a focus on user-centric design and robust technological frameworks, we specialize in developing bespoke software solutions tailored to meet the unique needs of our clients. At Smartly Coded, we pride ourselves on our ability to seamlessly integrate advanced technologies such as AI, machine learning, and blockchain, empowering businesses to stay ahead in today's fast-paced world. Transparency, integrity, and client satisfaction lie at the heart of our operations, driving us to exceed expectations and foster long-lasting partnerships.</p>
+        </div>
+    </section>
+    <section class="count maxWidthAll marginAuto reveal" id="countContainer">
+        <div>
+            <h1 class="countNumber" data-val="456"></h1>
+            <p>Employees</p>
+        </div>
+        <div>
+            <h1 class="countNumber" data-val="200"></h1>
+            <p>Stores across the world</p>
+        </div>
+        <div>
+            <h1 class="countNumber" data-val="1200"></h1>
+            <p>Premium Users</p>
+        </div>
+    </section>
+    <section class="contact_us maxWidthAll marginAuto reveal" id="Contact">
+        <h1 class="mainHeading bigText">Contact Us</h1>
+        <p class="regularText">Talk to our Professionals</p>
+        <form action="#">
+            <div>
+                <i class="fa-solid fa-user"></i>
+                <input type="text" placeholder="Full Name" required>
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <input type="text" placeholder="Email Address" required>
+            </div>
+            <div>
+                <i class="fa-solid fa-paper-plane"></i>
+                <textarea name="contactTextInput" id="contactTextArea" rows="6" placeholder="I had a doubt regarding ..." required></textarea>
+            </div>
+            <button class="button_1">Submit</button>
+        </form>
+        <img src="./Images/Message.svg" alt="Message">
+    </section>
+    <section class="faq maxWidthAll marginAuto reveal">
+        <h1 class="mainHeading bigText">FAQ</h1>
+        <div class="faqBox reveal">
+            <div class="qnaDiv">
+                <h1>Will T-Course provide course for freshers in programming?</h1>
+                <i class="fa-solid fa-caret-down"></i>
+                <i class="fa-solid fa-caret-up"></i>
+            </div>
+            <div class="ansDiv">
+                <p>Yes, our courses are too friendly to get understood easily for freshies in programming.</p>
+            </div>
+        </div>
+        <div class="faqBox reveal">
+            <div class="qnaDiv">
+                <h1>How can I join codefest of T-Course?</h1>
+                <i class="fa-solid fa-caret-down"></i>
+                <i class="fa-solid fa-caret-up"></i>
+            </div>
+            <div class="ansDiv">
+                <p>Subscribe our T-Course Youtube to get instant updates of codefest. You can also join Our Discord Server for more information.</p>
+            </div>
+        </div>
+        <div class="faqBox reveal">
+            <div class="qnaDiv">
+                <h1>Why should I choose T-Course when other platforms provide course in less amount?</h1>
+                <i class="fa-solid fa-caret-down"></i>
+                <i class="fa-solid fa-caret-up"></i>
+            </div>
+            <div class="ansDiv">
+                <p>T-Course provides you 24/7 Guidence in programming courses. Users get free source code of many websites for Professional/Advance Learning.
+                </p>
+            </div>
+        </div>
+        <div class="faqBox reveal">
+            <div class="qnaDiv">
+                <h1>Are Codefest free to join for all programmers?</h1>
+                <i class="fa-solid fa-caret-down"></i>
+                <i class="fa-solid fa-caret-up"></i>
+            </div>
+            <div class="ansDiv">
+                <p>Yes, T-Course helps programmers to show up their skills of programming in codefest, all players are free to join Codefest with no cost.
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer class="maxWidthAll marginAuto">
+        <div class="footerContainer">
+            <div class="footerDiv">
+                <img src="smartlycoded.png" alt="Logo" class="logo navigatingLinks" data-val="Home">
+                <p class="smallText">Smartly Coded is the ultimate tech industry creating at least 2 products every year. Smartly Coded is a pioneering tech company at the forefront of innovation, dedicated to crafting cutting-edge solutions that redefine industry standards. Established with a vision to revolutionize the digital landscape, Smartly Coded thrives on the ethos of creativity, precision, and forward-thinking. Our team of dynamic experts encompasses a diverse range of talents, united by a passion for pushing boundaries and delivering excellence in every project undertaken.</p>
+            </div>
+            <div class="footerDiv navigatingFooterLinks">
+                <p class="regularText navigatingLinks" data-val="Courses">Plans</p>
+                <p class="regularText navigatingLinks" data-val="Pricing">Products</p>
+                <p class="regularText navigatingLinks" data-val="About">About</p>
+                <p class="regularText navigatingLinks" data-val="Contact">Contact</p>
+            </div>
+            <div class="footerDiv">
+                <div class="socialLinks">
+                    <a href="https://discord.com" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                    <a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <p class="regularText">Follow Us On</p>
+            </div>
+        </div>
+    </footer>
+    <div class="copyRight">
+        <p class="smallText">&#169; Smartly Coded All rights reserved</p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
